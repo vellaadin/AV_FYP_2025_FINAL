@@ -5,7 +5,7 @@
 - **notebook_runner.py**
   - A python script which automates the running of 120 independant experimental runs, using the aforementioned notebooks, and then saves each resulting notebook + all model embeddings + indices + confusion matrix for each model/model+classifier
 - **copy_of_result_notebooks**
-  - A file containing a copy of ONLY the notebooks resulting from each 120 experiment run. 
+  - A file containing a copy of ONLY the notebooks resulting from each 120 experiment run. (The saved model embeddings are too large to be pushed with Git.) 
 
 # How to reproduce the experiments
 - Clone this repository to a directory
